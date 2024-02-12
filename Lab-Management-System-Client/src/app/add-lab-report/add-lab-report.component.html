@@ -1,0 +1,40 @@
+<!-- add-patient.component.html -->
+<app-navbar></app-navbar>
+<div class="container">
+    <h2>Add Lab Report</h2>
+    <form [formGroup]="labReportForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="patientID">Patient ID</label>
+        <input type="text" formControlName="patientID" class="form-control">
+      </div>
+        <div class="form-group">
+          <label for="patientName">Name</label>
+          <input type="text" formControlName="patientName" class="form-control">
+        </div>
+      <div class="form-group">
+          <label for="testType" >Test Type</label>
+          <select formControlName="testType" class="form-control">
+            <option value="">Select-Test-Type</option>
+            <option value="Glucose Test">Glucose Test</option>
+            <option value="Complete Blood Count">Complete Blood Count</option>
+            <option value="Lipid Panel">Lipid Panel</option>
+            <option value="urinalysis">urinalysis</option>
+            <!-- Add more options as needed -->
+        </select>
+      </div>
+        <div class="form-group">
+          <label for="enteredTime">EnteredTime</label>
+          <input type="date" formControlName="enteredTime" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="timeofTest">Time of Test</label>
+          <input type="date" formControlName="timeofTest" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="results">Results</label>
+          <input type="text" formControlName="results" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </div>
+  

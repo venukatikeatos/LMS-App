@@ -1,0 +1,55 @@
+<app-navbar></app-navbar>
+<!-- <h1 *ngFor="let arr of patientsData">
+    {{arr.patientID}}
+</h1> -->
+
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <h2>Patients List</h2>
+        <button class="btn btn-primary" routerLink="/AddPatient">
+          Create New Patient
+        </button>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Date of Birth</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let patient of patientsData">
+        <td>{{ patient.patientID }}</td>
+        <td>{{ patient.patientName }}</td>
+        <td>{{ patient.patientAddress }}</td>
+        <td>{{ patient.patientGender }}</td>
+        <td>{{ patient.patientAge }}</td>
+        <td>{{ patient.patientDOB }}</td>
+        <td>
+          <button
+            class="btn btn-primary me-3"
+            routerLink="/AddPatient/{{ patient.patientID }}/edit"
+          >
+            Edit
+          </button>
+          <button
+            class="btn btn-danger ml-3"
+            (click)="DeletePatient(patient.patientID)"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<footer class="footer">
+  <div class="container">
+    <span>© 2024 My Angular App. All rights reserved.</span>
+  </div>
+</footer>

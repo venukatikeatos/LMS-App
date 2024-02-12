@@ -1,0 +1,44 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <h2>Edit Lab Report Details</h2>
+  <button type="submit" class="btn btn-primary justify-content-end">
+    Back
+  </button>
+  <form [formGroup]="labReportForm" (ngSubmit)="updateLabReport()">
+    <div class="form-group">
+      <label for="reportID">Report ID</label>
+      <input type="text" formControlName="reportID" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="patientId">Patient ID</label>
+      <input type="text" formControlName="patientId" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="patientName">Patient Name</label>
+      <input type="text" formControlName="patientName" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="testType">Test Type</label>
+      <select formControlName="testType" class="form-control">
+        <option value="">Select-Test-Type</option>
+        <option value="Glucose Test">Glucose Test</option>
+        <option value="Complete Blood Count">Complete Blood Count</option>
+        <option value="Lipid Panel">Lipid Panel</option>
+        <option value="urinalysis">urinalysis</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="enteredTime">EnteredTime</label>
+      <input type="text" formControlName="enteredTime" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="timeofTest">Time of Test</label>
+      <input type="text" formControlName="timeofTest" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label for="results">Results</label>
+      <input type="text" formControlName="results" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Update Lab Report</button>
+  </form>
+</div>

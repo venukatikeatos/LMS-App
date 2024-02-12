@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MkJYHDHZzSGWnqTlEnrRSZCC1jr9qjlrCR5VYOvBTKY=",
+  "Source": "LabManagementSystem",
+  "BasePath": "_content/LabManagementSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
