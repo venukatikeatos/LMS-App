@@ -10,7 +10,7 @@ namespace LabManagementSystem.DTOs
         public DateTime EnteredTime { get; set; }
         public DateTime TimeofTest { get; set; }
         public string? Results { get; set; }
-       // public int PatientId { get; set; }
+        public int PatientId { get; set; }
        
     }
 }
