@@ -11,5 +11,6 @@ namespace LabManagementSystem.DTOs
         public DateTime TimeofTest { get; set; }
         public string? Results { get; set; }
        // public int PatientId { get; set; }
+       
     }
 }
