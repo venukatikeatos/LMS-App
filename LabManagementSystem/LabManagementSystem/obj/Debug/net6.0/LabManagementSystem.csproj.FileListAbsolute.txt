@@ -129,3 +129,14 @@ C:\Users\venu\Desktop\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\L
 C:\Users\venu\Desktop\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.genruntimeconfig.cache
 C:\Users\venu\Desktop\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\ref\LabManagementSystem.dll
 C:\Users\venu\Desktop\LabManagementSystem\LabManagementSystem\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.csproj.AssemblyReference.cache
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.AssemblyInfoInputs.cache
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.AssemblyInfo.cs
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.sourcelink.json
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.dll
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\refint\LabManagementSystem.dll
+C:\Users\a854856\Music\HCA Task\LMS-App\LabManagementSystem\LabManagementSystem\obj\Debug\net6.0\LabManagementSystem.pdb
