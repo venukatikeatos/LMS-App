@@ -14,7 +14,7 @@ namespace LabManagementSystem.Controllers
         private readonly LabManagementSystemContext _dbContext;
         private readonly IMapper _mapper;
 
-
+        //added git r
         public LabReportController(LabManagementSystemContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;

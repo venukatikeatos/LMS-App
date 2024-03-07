@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj": {}
+    "C:\\Users\\a854856\\Music\\HCA Task\\LMS-App\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj": {
+    "C:\\Users\\a854856\\Music\\HCA Task\\LMS-App\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\a854856\\Music\\HCA Task\\LMS-App\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
         "projectName": "LabManagementSystem",
-        "projectPath": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\venu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\obj\\",
+        "projectPath": "C:\\Users\\a854856\\Music\\HCA Task\\LMS-App\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\a854856\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a854856\\Music\\HCA Task\\LMS-App\\LabManagementSystem\\LabManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\venu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a854856\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
