@@ -10,8 +10,8 @@ namespace LabManagementSystem.Utilities
             {
                 CreateMap<PatientDTO, Patient>(); // Define mapping from PatientDTO to Patient
                 CreateMap<Patient, PatientDTO>();
-                CreateMap<LabReport, LabReportDTO>();
                 CreateMap<LabReportDTO, LabReport>();
+                CreateMap<LabReport, LabReportDTO>();
 
         }
     }

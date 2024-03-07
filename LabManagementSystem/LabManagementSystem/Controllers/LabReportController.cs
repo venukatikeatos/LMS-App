@@ -29,16 +29,16 @@ namespace LabManagementSystem.Controllers
                 return NotFound();
             }
 
-            var labReport = await _dbContext.patients.ToListAsync();
+            var labReport = await _dbContext.labReports.ToListAsync();
             if (labReport == null)
             {
                 return NotFound();
             }
-            return Ok(_mapper.Map<IEnumerable<PatientDTO>>(labReport));
+            return Ok(_mapper.Map<IEnumerable<LabReportDTO>>(labReport));
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<LabReportDTO>> GetLabReportDetailsById(int id)
+        public async Task<ActionResult<LabReport>> GetLabReportDetailsById(int id)
         {
             if (_dbContext.labReports == null)
             {
@@ -56,8 +56,17 @@ namespace LabManagementSystem.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<LabReport>> PostLabReportDetails(LabReport labReport)
+        public async Task<ActionResult<LabReport>> PostLabReportDetails(LabReportDTO labReportdto)
         {
+            var labReport = new LabReport()
+            {
+                ReportID = labReportdto.ReportID,
+                TestType = labReportdto.TestType,
+                EnteredTime = labReportdto.EnteredTime,
+                TimeofTest = labReportdto.TimeofTest,
+                Results = labReportdto.Results,
+                PatientId = labReportdto.PatientId,
+            };
             _dbContext.labReports.Add(labReport);
             await _dbContext.SaveChangesAsync();
 
@@ -101,14 +110,14 @@ namespace LabManagementSystem.Controllers
             {
                 return BadRequest();
             }
-            var labReport = _dbContext.labReports.FindAsync(id);
+            var labReport = await _dbContext.labReports.FindAsync(id);
 
             if (labReport == null)
             {
                 return NotFound();
             }
 
-            _dbContext.labReports.Remove(await labReport);
+            _dbContext.labReports.Remove(labReport);
 
             await _dbContext.SaveChangesAsync();
 
